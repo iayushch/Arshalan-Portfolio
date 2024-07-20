@@ -30,7 +30,7 @@ function Navbar() {
         </div>
       </div>
       {expandNavbar && (
-        <div className="lg:hidden fixed top-20 right-0 w-full bg-white shadow-md border-t border-gray-200 flex flex-col items-center space-y-4 py-6 z-50">
+        <div className="lg:hidden fixed rounded-b-lg border-b border-l border-gray-200 top-20 right-0 w-1/2 bg-white shadow-md border-t border-gray-200 flex flex-col items-center space-y-4 py-6 z-50">
           <Link to="/" onClick={() => setExpandNavbar(false)} className="text-gray-800 text-lg py-3 px-6 hover:bg-gray-100 w-full text-center rounded-lg transition duration-300">Home</Link>
           <Link to="/Skill" onClick={() => setExpandNavbar(false)} className="text-gray-800 text-lg py-3 px-6 hover:bg-gray-100 w-full text-center rounded-lg transition duration-300">Skill</Link>
           <Link to="/Project" onClick={() => setExpandNavbar(false)} className="text-gray-800 text-lg py-3 px-6 hover:bg-gray-100 w-full text-center rounded-lg transition duration-300">Project</Link>
