@@ -25,7 +25,7 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2014 - 2018"
+          date="2021 - 2025"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<FaSchool />}
         >
@@ -41,6 +41,20 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
+          date="2022 - 2023"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<FaBriefcase />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Gymkhana
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            IIIT Kalyani 
+          </h4>
+          <p>Secretary of Student Affair</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
           date="2023 - 2024"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<FaBriefcase />}
@@ -51,7 +65,7 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             IIIT Kalyani 
           </h4>
-          <p>Currently I am Vice Chair in IEEE Student Branch</p>
+          <p> Vice Chair IEEE Student Branch</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
