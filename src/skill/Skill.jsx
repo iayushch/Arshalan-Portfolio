@@ -10,6 +10,18 @@ function Skill() {
     return (
         <div className='skill'>
             <VerticalTimeline lineColor="#3e497a">
+            <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    date="2021-present"
+                    iconStyle={{ background: "#3e497a", color: "#fff" }}
+                    icon={<FaLanguage />}
+                >
+                    <h3 className="vertical-timeline-element-title">
+                        <span className="text-lg">JavaScript, HTML, CSS, Python, C#, C, C++, MATLAB</span>
+                    </h3>
+                    <p>Language</p>
+                </VerticalTimelineElement>
+
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="2023-present"
@@ -17,7 +29,7 @@ function Skill() {
                     icon={<FaLaptopCode />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        <span className="text-lg">ReactJS, Redux, HTML, CSS, React Native, Bootstrap, TailwindCSS, StyledComponents</span>
+                        <span className="text-lg">ReactJS, Redux, HTML, CSS, Bootstrap, TailwindCSS, StyledComponents</span>
                     </h3>
                     <p>Front End</p>
                 </VerticalTimelineElement>
@@ -32,17 +44,7 @@ function Skill() {
                     </h3>
                     <p>Back-End</p>
                 </VerticalTimelineElement>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
-                    date="2021-present"
-                    iconStyle={{ background: "#3e497a", color: "#fff" }}
-                    icon={<FaLanguage />}
-                >
-                    <h3 className="vertical-timeline-element-title">
-                        <span className="text-lg">JavaScript, HTML, CSS, Python, C#, C, C++, MATLAB</span>
-                    </h3>
-                    <p>Language</p>
-                </VerticalTimelineElement>
+                
             </VerticalTimeline>
         </div>
     );
