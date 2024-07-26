@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: your-app-name
+    env: static
+    buildCommand: npm run build
+    publishDir: /dist
+    routes:
+      - src: /static/(.*)
+        dest: /static/$1
+      - src: /(.*)
+        dest: /index.html
